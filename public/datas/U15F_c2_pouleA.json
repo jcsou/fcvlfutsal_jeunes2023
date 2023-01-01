@@ -1,0 +1,204 @@
+{
+  "lesequipes": [
+    "U15F1",
+    "U15F2",
+    "U15F3",
+    "U15F4",
+    "U15F5",
+    "U15F6"
+  ],
+  "lesmatchs": [
+    {
+      "id": 2,
+      "salle": "2-CCVL",
+      "heureDebut": "20:00",
+      "equipeDom": {"id": "U15F1","but": ""},
+      "equipeExt": {"id": "U15F2","but": ""}
+    },
+    {
+      "id": 4,
+      "salle": "2-CCVL",
+      "heureDebut": "20:08",
+      "equipeDom": {"id": "U15F3","but": ""},
+      "equipeExt": {"id": "U15F4","but": ""}
+    },
+    {
+      "id": 6,
+      "salle": "2-CCVL",
+      "heureDebut": "20:16",
+      "equipeDom": {"id": "U15F5","but": ""},
+      "equipeExt": {"id": "U15F6","but": ""}
+    },
+
+
+    {
+      "id": 8,
+      "salle": "2-CCVL",
+      "heureDebut": "20:24",
+      "equipeDom": {"id": "U15F4","but": ""},
+      "equipeExt": {"id": "U15F2","but": ""}
+    },
+    {
+      "id": 10,
+      "salle": "2-CCVL",
+      "heureDebut": "20:32",
+      "equipeDom": {"id": "U15F5","but": ""},
+      "equipeExt": {"id": "U15F1","but": ""}
+    },
+    {
+      "id": 12,
+      "salle": "2-CCVL",
+      "heureDebut": "20:40",
+      "equipeDom": {"id": "U15F6","but": ""},
+      "equipeExt": {"id": "U15F3","but": ""}
+    },
+
+
+    {
+      "id": 14,
+      "salle": "2-CCVL",
+      "heureDebut": "20:48",
+      "equipeDom": {"id": "U15F2","but": ""},
+      "equipeExt": {"id": "U15F5","but": ""}
+    },
+    {
+      "id": 16,
+      "salle": "2-CCVL",
+      "heureDebut": "20:56",
+      "equipeDom": {"id": "U15F4","but": ""},
+      "equipeExt": {"id": "U15F6","but": ""}
+    },
+    {
+      "id": 17,
+      "salle": "1-GLC",
+      "heureDebut": "21:04",
+      "equipeDom": {"id": "U15F3","but": ""},
+      "equipeExt": {"id": "U15F1","but": ""}
+    },
+
+
+    {
+      "id": 19,
+      "salle": "1-GLC",
+      "heureDebut": "21:12",
+      "equipeDom": {"id": "U15F6","but": ""},
+      "equipeExt": {"id": "U15F2","but": ""}
+    },
+    {
+      "id": 21,
+      "salle": "1-GLC",
+      "heureDebut": "21:20",
+      "equipeDom": {"id": "U15F5","but": ""},
+      "equipeExt": {"id": "U15F3","but": ""}
+    },
+    {
+      "id": 23,
+      "salle": "1-GLC",
+      "heureDebut": "21:28",
+      "equipeDom": {"id": "U15F1","but": ""},
+      "equipeExt": {"id": "U15F4","but": ""}
+    },
+
+    {
+      "id": 25,
+      "salle": "1-GLC",
+      "heureDebut": "21:36",
+      "equipeDom": {"id": "U15F2","but": ""},
+      "equipeExt": {"id": "U15F3","but": ""}
+    },
+    {
+      "id": 27,
+      "salle": "1-GLC",
+      "heureDebut": "21:44",
+      "equipeDom": {"id": "U15F1","but": ""},
+      "equipeExt": {"id": "U15F6","but": ""}
+    },
+    {
+      "id": 29,
+      "salle": "1-GLC",
+      "heureDebut": "21:52",
+      "equipeDom": {"id": "U15F4","but": ""},
+      "equipeExt": {"id": "U15F5","but": ""}
+    }
+  ],
+  "leclassement": [
+    {
+      "id":"U15F1",
+      "rang": "",
+      "points": "",
+      "diffbuts": "",
+      "butsPour": "",
+      "butsContre": "",
+      "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
+    },
+    {
+      "id":"U15F2",
+      "rang": "",
+      "points": "",
+      "diffbuts": "",
+      "butsPour": "",
+      "butsContre": "",
+      "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
+    },
+    {
+      "id":"U15F3",
+      "rang": "",
+      "points": "",
+      "diffbuts": "",
+      "butsPour": "",
+      "butsContre": "",
+      "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
+    },
+    {
+      "id":"U15F4",
+      "rang": "",
+      "points": "",
+      "diffbuts": "",
+      "butsPour": "",
+      "butsContre": "",
+      "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
+    },
+    {
+      "id":"U15F5",
+      "rang": "",
+      "points": "",
+      "diffbuts": "",
+      "butsPour": "",
+      "butsContre": "",
+      "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
+    },
+    {
+      "id":"U15F6",
+      "rang": "",
+      "points": "",
+      "diffbuts": "",
+      "butsPour": "",
+      "butsContre": "",
+      "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
+    }
+  ]
+}

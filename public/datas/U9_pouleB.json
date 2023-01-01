@@ -1,0 +1,106 @@
+{
+  "lesequipes": [
+    "U9G5",
+    "U9G6",
+    "U9G7",
+    "U9G8"
+  ],
+  "lesmatchs": [
+    {
+      "id": 2,
+      "salle": "2-CCVL",
+      "heureDebut": "13:00",
+      "equipeDom": {"id": "U9G5","but": ""},
+      "equipeExt": {"id": "U9G6","but": ""}
+    },
+    {
+      "id": 4,
+      "salle": "2-CCVL",
+      "heureDebut": "13:10",
+      "equipeDom": {"id": "U9G7","but": ""},
+      "equipeExt": {"id": "U9G8","but": ""}
+    },
+    {
+      "id": 6,
+      "salle": "2-CCVL",
+      "heureDebut": "13:20",
+      "equipeDom": {"id": "U9G6","but": ""},
+      "equipeExt": {"id": "U9G8","but": ""}
+    },
+    {
+      "id": 8,
+      "salle": "2-CCVL",
+      "heureDebut": "13:30",
+      "equipeDom": {"id": "U9G5","but": ""},
+      "equipeExt": {"id": "U9G7","but": ""}
+    },
+    {
+      "id": 9,
+      "salle": "1-GLC",
+      "heureDebut": "13:40",
+      "equipeDom": {"id": "U9G6","but": ""},
+      "equipeExt": {"id": "U9G7","but": ""}
+    },
+    {
+      "id": 11,
+      "salle": "1-GLC",
+      "heureDebut": "13:50",
+      "equipeDom": {"id": "U9G8","but": ""},
+      "equipeExt": {"id": "U9G5","but": ""}
+    }
+  ],
+  "leclassement": [
+    {
+      "id":"U9G5",
+      "rang": "",
+      "points": "",
+      "diffbuts": "",
+      "butsPour": "",
+      "butsContre": "",
+      "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
+    },
+    {
+      "id":"U9G6",
+      "rang": "",
+      "points": "",
+      "diffbuts": "",
+      "butsPour": "",
+      "butsContre": "",
+      "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
+    },
+    {
+      "id":"U9G7",
+      "rang": "",
+      "points": "",
+      "diffbuts": "",
+      "butsPour": "",
+      "butsContre": "",
+      "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
+    },
+    {
+      "id":"U9G8",
+      "rang": "",
+      "points": "",
+      "diffbuts": "",
+      "butsPour": "",
+      "butsContre": "",
+      "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
+    }
+  ]
+}

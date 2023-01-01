@@ -1,0 +1,220 @@
+{
+  "lescategories": [
+    {
+      "id": "U11",
+      "nom": "U11",
+      "nomlong": "Catégorie U11"
+    }
+  ],
+  "lesequipes": [
+    {
+      "categorie_id": "U11",
+      "id": "U11G1",
+      "nom": "FC Val Du Loir",
+      "nomCourt": "FCVL",
+      "fanion": "fcvl.png"
+    },
+    {
+      "categorie_id": "U11",
+      "id": "U11G2",
+      "nom": "Gatine",
+      "nomCourt": "Gatine",
+      "fanion": "gatine.png"
+    },
+    {
+      "categorie_id": "U11",
+      "id": "U11G3",
+      "nom": "Ecommoy",
+      "nomCourt": "Ecommoy",
+      "fanion": "ecommoy.png"
+    },
+    {
+      "categorie_id": "U11",
+      "id": "U11G4",
+      "nom": "Pays de Racan (Neuvy)",
+      "nomCourt": "PaysRacan",
+      "fanion": "paysderacan.png"
+    },
+    {
+      "categorie_id": "U11",
+      "id": "U11G5",
+      "nom": "COC",
+      "nomCourt": "COC",
+      "fanion": "coc.png"
+    },
+    {
+      "categorie_id": "U11",
+      "id": "U11G6",
+      "nom": "Villiers au Bouin",
+      "nomCourt": "Villiers",
+      "fanion": "villiers.png"
+    },
+    {
+      "categorie_id": "U11",
+      "id": "U11G7",
+      "nom": "Le Lude",
+      "nomCourt": "Le Lude",
+      "fanion": "lelude.png"
+    },
+    {
+      "categorie_id": "U11",
+      "id": "U11G8",
+      "nom": "US Arnage Pontlieue",
+      "nomCourt": "USAP",
+      "fanion": "usap.png"
+    },
+
+
+    {
+      "categorie_id": "U9",
+      "id": "U9G1",
+      "nom": "FC Val Du Loir 1",
+      "nomCourt": "FCVL_1",
+      "fanion": "fcvl.png"
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G2",
+      "nom": "COC",
+      "nomCourt": "COC",
+      "fanion": "coc.png"
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G3",
+      "nom": "Ecommoy",
+      "nomCourt": "Ecommoy",
+      "fanion": "ecommoy.png"
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G4",
+      "nom": "US Arnage Pontlieue",
+      "nomCourt": "USAP",
+      "fanion": "usap.png"
+
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G5",
+      "nom": "Gatine",
+      "nomCourt": "Gatine",
+      "fanion": "gatine.png"
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G6",
+      "nom": "FC Val Du Loir 2",
+      "nomCourt": "FCVL_2",
+      "fanion": "fcvl.png"
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G7",
+      "nom": "Le Lude",
+      "nomCourt": "Le Lude",
+      "fanion": "lelude.png"
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G8",
+      "nom": "Pays de Racan (Neuvy)",
+      "nomCourt": "PaysRacan",
+      "fanion": "paysderacan.png"
+    },
+
+
+    {
+      "categorie_id": "U13G",
+      "id": "U13G1",
+      "nom": "COC",
+      "nomCourt": "COC",
+      "fanion": "coc.png"
+    },
+    {
+      "categorie_id": "U13G",
+      "id": "U13G2",
+      "nom": "FC Val Du Loir",
+      "nomCourt": "FCVL",
+      "fanion": "fcvl.png"
+    },
+    {
+      "categorie_id": "U13G",
+      "id": "U13G3",
+      "nom": "US Arnage Pontlieue",
+      "nomCourt": "USAP",
+      "fanion": "usap.png"
+    },
+    {
+      "categorie_id": "U13G",
+      "id": "U13G4",
+      "nom": "Villiers au Bouin",
+      "nomCourt": "Villiers",
+      "fanion": "villiers.png"
+    },
+    {
+      "categorie_id": "U13G",
+      "id": "U13G5",
+      "nom": "Ecommoy",
+      "nomCourt": "Ecommoy",
+      "fanion": "ecommoy.png"
+    },
+    {
+      "categorie_id": "U13G",
+      "id": "U13G6",
+      "nom": "Le Lude",
+      "nomCourt": "Le Lude",
+      "fanion": "lelude.png"
+    },
+
+
+    {
+      "categorie_id": "U13F",
+      "id": "U13F1",
+      "nom": "FC Val Du Loir 1",
+      "nomCourt": "FCVL1",
+      "fanion": "fcvl.png"
+    },
+    {
+      "categorie_id": "U13F",
+      "id": "U13F2",
+      "nom": "FC Val Du Loir 2",
+      "nomCourt": "FCVL2",
+      "fanion": "fcvl.png"
+    },
+    {
+      "categorie_id": "U13F",
+      "id": "U13F3",
+      "nom": "Le Mans FC",
+      "nomCourt": "Le Mans",
+      "fanion": "lemans.png"
+    },
+    {
+      "categorie_id": "U13F",
+      "id": "U13F4",
+      "nom": "US Arnage Pontlieue",
+      "nomCourt": "USAP",
+      "fanion": "usap.png"
+    },
+    {
+      "categorie_id": "U13F",
+      "id": "U13F5",
+      "nom": "Laigné StGervais",
+      "nomCourt": "Laigné",
+      "fanion": "laigne.png"
+    }
+
+  ],
+  "lessalles": [
+    {
+      "id": "2-CCVL",
+      "nom":"CCVL",
+      "nomlong": "Gymnase Val Du Loir"
+    },
+    {
+      "id": "1-GLC",
+      "nom": "GLCroix",
+      "nomlong": "Gymnase GuyLaCroix"
+    }
+  ]
+}
