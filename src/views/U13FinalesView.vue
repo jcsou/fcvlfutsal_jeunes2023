@@ -2,10 +2,10 @@
     <v-container id="SenFPhaseFinale" fluid tag="section">
     <v-row>
       <v-col class="col-md-8">
-        <!-- SeniorF/U18F-1er Match Classement -->
+        <!-- {{ categorie }} Match Classement -->
         <base-material-card color="primary" class="px-0">
           <template v-slot:heading>
-            <div class="display-2 font-weight-light">SeniorF/U18F-1er Match Classement</div>
+            <div class="display-2 font-weight-light">{{ categorie }} - Match Classement</div>
           </template>
           <v-card-text class="px-0" >
             <v-data-table :headers="headersMatch" :items="lesmatchsNiv1" hide-default-footer class="px-0" mobile-breakpoint="350">
@@ -37,46 +37,11 @@
           </v-card-text>
         </base-material-card>
 
-        <!-- SeniorF/U18F-2ieme Match Classement -->
-        <base-material-card color="primary" class="px-0">
-            <template v-slot:heading>
-                <div class="display-2 font-weight-light">SeniorF/U18F-2ieme Match Classement</div>
-            </template>
-            <v-card-text class="px-0" >
-                <v-data-table :headers="headersMatch" :items="lesmatchsNiv2" hide-default-footer class="px-0" mobile-breakpoint="350">
-                    <template v-slot:[`item.id`]="{ item }">
-                        <h6 class="display-1 mb-1 black--text">{{ item.id}}</h6>
-                        <h6 class="display-1 mb-1 grey--text">{{ item.salle}}</h6>
-                        <h6 class="display-1 mb-1 grey--text">{{ item.heureDebut}}</h6>
-                    </template>
-                    <template v-slot:[`item.nom`]="{ item }">
-                        <h6 class="display-1 mb-1 black--text">{{ item.nom}}</h6>
-                        <h6 class="display-1 mb-1 grey--text">{{ item.code}}</h6>
-                    </template>
-                    <template v-slot:[`item.displayDom.fanion`]="{ item }">
-                        <v-avatar>
-                            <v-img v-bind:src="'img/fanion/'+item.displayDom.fanion" :alt="item.displayDom.nomCourt" max-height="25" max-width="25"/>
-                        </v-avatar>
-                        <h6 class="display-1 mb-1 grey--text">{{ item.displayDom.nomCourt }}</h6>
-                    </template>
-                    <template v-slot:[`item.score`]="{ item }">
-                        <v-chip color="grey" ><h6 class="display-1 mb-1 font-weight-bold">{{ item.score }}</h6></v-chip>
-                    </template>
-                    <template v-slot:[`item.displayExt.fanion`]="{ item }">
-                        <v-avatar>
-                        <v-img v-bind:src="'img/fanion/'+item.displayExt.fanion" :alt="item.displayExt.nomCourt" max-height="25" max-width="25"/>
-                        </v-avatar>
-                        <h6 class="display-1 mb-1 grey--text">{{ item.displayExt.nomCourt }}</h6>
-                    </template>
-                </v-data-table>
-            </v-card-text>
-        </base-material-card>
-
       </v-col>
       <v-col class="col-md-4">
         <base-material-card color="primary" class="px-0"  >
           <template v-slot:heading>
-              <div class="display-2 font-weight-light">Classement Final</div>
+              <div class="display-2 font-weight-light">{{ categorie }} - Classement Final</div>
           </template>
           <v-card-text class="px-0" >
               <v-data-table :headers="headersClassement" :items="leclassement" hide-default-footer class="px-0" mobile-breakpoint="350">
@@ -93,7 +58,7 @@
         </base-material-card>
 
         <v-card max-width="400" class="mx-auto">
-            <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/mma.png" alt="mma"/>
+            <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/finales.png" alt="mma"/>
             <v-card-title>Annonceurs</v-card-title>
         </v-card>
       </v-col>
@@ -107,7 +72,8 @@ import axios from 'axios'
 export default {
     data() {
       return {
-        urlFinales: process.env.BASE_URL + "datas/F_c1_finales.json",
+        categorie: "U13",
+        urlFinales: process.env.BASE_URL + "datas/U13_finales.json",
         urlEquipe: process.env.BASE_URL + "datas/info_tournoi.json",
         lesmatchsNiv1: [],
         lesmatchsNiv2: [],

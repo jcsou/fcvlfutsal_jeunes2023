@@ -1,7 +1,7 @@
 <template>
       <v-card class="mx-auto">
         <v-tabs color="primary accent-4" left>
-          <v-tab >Poule Unique</v-tab>
+          <v-tab >{{ categorie }} Poule Unique</v-tab>
             <v-chip class="ma-2" label @click.stop="update()">
                 <v-icon>mdi-reload</v-icon>Reload
             </v-chip>
@@ -12,7 +12,7 @@
               <v-col>
                 <base-material-card color="colorPA" class="px-0"  >
                   <template v-slot:heading>
-                  <div class="display-2 font-weight-light">U15F-Poule Unique-Matchs</div>
+                  <div class="display-2 font-weight-light">{{ categorie }} - Poule Unique-Matchs</div>
                   </template>
                   <v-card-text class="px-0" >
                     <v-data-table :headers="headersMatch" :items="lesmatchsA" hide-default-footer class="px-0" mobile-breakpoint="350" :options="options">
@@ -43,7 +43,7 @@
               <v-col>
                 <base-material-card color="colorPA" class="px-0"  >
                   <template v-slot:heading>
-                      <div class="display-2 font-weight-light">U15F-Poule Unique-Classement</div>
+                      <div class="display-2 font-weight-light">{{ categorie }} - Poule Unique-Classement</div>
                   </template>
                   <v-card-text class="px-0" >
                       <v-data-table :headers="headersClassement" :items="leclassementA" hide-default-footer class="px-0" mobile-breakpoint="350">
@@ -61,7 +61,7 @@
                 </base-material-card>
 
                 <v-card max-width="400" class="mx-auto">
-                    <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/mma.png" alt="mma"/>
+                    <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/poules.png" alt="mma"/>
                     <v-card-title>Annonceurs</v-card-title>
                 </v-card>
               </v-col>
@@ -78,7 +78,8 @@ import axios from 'axios'
 export default {
     data() {
       return {
-        urlPouleA: process.env.BASE_URL + "datas/U15F_c2_pouleA.json",
+        categorie: "U13",
+        urlPouleA: process.env.BASE_URL + "datas/U13_pouleA.json",
         urlEquipe: process.env.BASE_URL + "datas/info_tournoi.json",
         lesmatchsA: [],
         leclassementA: [],
@@ -214,7 +215,7 @@ export default {
                   var sortedclassementA = this.leclassementA.sort((p1, p2) => (p1.rang > p2.rang) ? 1 : (p1.rang < p2.rang) ? -1 : 0)
                   this.leclassementA = sortedclassementA
 
-                  console.log(this.lesmatchsA)
+                  //console.log(this.lesmatchsA)
                 }).catch(error => {
                    console.log(error)
                 })

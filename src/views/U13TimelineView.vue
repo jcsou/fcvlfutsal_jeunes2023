@@ -6,7 +6,7 @@
             <v-card dark flat >
                 <v-card-title class="pa-2 primary lighten-3">
                     <h3 class="font-weight-light text-center black grow">
-                        Ligne de temps - Matchs de Poule
+                        Ligne de temps - Matchs de Poule U13/U13F
                     </h3>
                 </v-card-title>
             </v-card>
@@ -16,7 +16,7 @@
                     <v-timeline-item color="primary" v-for="item in getMatchs" v-bind:key="item.id">
                         <v-card max-width="400" class="pa-0 ma-0">
                             <v-card-title>
-                                <strong>{{ item.heureDebut }} - {{ item.salle }}</strong>
+                                <strong>{{ item.heureDebut }} / Salle : {{ item.salle }}</strong>
                             </v-card-title>
 
                             <v-card-text class="pa-0 ma-0"  align="center">
@@ -52,7 +52,7 @@
             <v-card dark flat >
                 <v-card-title class="pa-2 secondary lighten-3">
                     <h3 class="font-weight-light text-center black grow">
-                        Ligne de temps - Matchs de Classement
+                        Ligne de temps - Matchs de Classement U13/U13F
                     </h3>
                 </v-card-title>
             </v-card>
@@ -62,7 +62,7 @@
                     <v-timeline-item color="secondary" v-for="item in getMatchsFinales" v-bind:key="item.id">
                         <v-card max-width="400" class="pa-0 ma-0">
                             <v-card-title>
-                                <strong>{{ item.heureDebut }} - {{ item.salle }}</strong>
+                                <strong>{{ item.heureDebut }} / Salle : {{ item.salle }}</strong>
                             </v-card-title>
 
                             <v-card-text class="pa-0 ma-0"  align="center">
@@ -105,12 +105,16 @@ import axios from 'axios'
 export default {
     data() {
       return {
-        urlF_c1_PouleA: process.env.BASE_URL + "datas/F_c1_pouleA.json",
-        urlF_c1_PouleB: process.env.BASE_URL + "datas/F_c1_pouleB.json",
-        urlU15F_c2_Poule: process.env.BASE_URL + "datas/U15F_c2_pouleA.json",
 
-        urlF_c1_finales: process.env.BASE_URL + "datas/F_c1_finales.json",
-        urlU15F_c2_finales: process.env.BASE_URL + "datas/U15F_c2_finales.json",
+        c1_categorie: "U13F Féminines",
+        c2_categorie: "U13G Garçons",
+
+        url_c1_PouleA: process.env.BASE_URL + "datas/U13F_pouleA.json",
+        url_c1_PouleB: process.env.BASE_URL + "datas/U13F_pouleB.json",
+        url_c2_Poule: process.env.BASE_URL + "datas/U13_pouleA.json",
+
+        urlF_c1_finales: process.env.BASE_URL + "datas/U13F_finales.json",
+        url_c2_finales: process.env.BASE_URL + "datas/U13_finales.json",
 
         urlEquipe: process.env.BASE_URL + "datas/info_tournoi.json",
 
@@ -190,9 +194,9 @@ export default {
               });
 
             // Load PoulesA
-            var urlF_c1_PouleA = this.urlF_c1_PouleA;
+            var url_c1_PouleA = this.url_c1_PouleA;
             axios
-                .get(urlF_c1_PouleA)
+                .get(url_c1_PouleA)
                 .then(response => {
                   this.lesmatchs_c1_pA = response.data.lesmatchs
 
@@ -200,16 +204,16 @@ export default {
                     this.lesmatchs_c1_pA[n].score = this.lesmatchs_c1_pA[n].equipeDom.but+" - "+this.lesmatchs_c1_pA[n].equipeExt.but
                     this.lesmatchs_c1_pA[n].displayDom = this.lesequipeskey[this.lesmatchs_c1_pA[n].equipeDom.id]
                     this.lesmatchs_c1_pA[n].displayExt = this.lesequipeskey[this.lesmatchs_c1_pA[n].equipeExt.id]
-                    this.lesmatchs_c1_pA[n].categorie = "Senior F / U18F / PA"
+                    this.lesmatchs_c1_pA[n].categorie = this.c1_categorie + " / Poule A"
                   }
                 }).catch(error => {
                    console.log(error)
                 })
 
             // Load PoulesB
-            var urlF_c1_PouleB = this.urlF_c1_PouleB;
+            var url_c1_PouleB = this.url_c1_PouleB;
             axios
-                .get(urlF_c1_PouleB)
+                .get(url_c1_PouleB)
                 .then(response => {
                   this.lesmatchs_c1_pB = response.data.lesmatchs
 
@@ -217,16 +221,16 @@ export default {
                     this.lesmatchs_c1_pB[n].score = this.lesmatchs_c1_pB[n].equipeDom.but+" - "+this.lesmatchs_c1_pB[n].equipeExt.but
                     this.lesmatchs_c1_pB[n].displayDom = this.lesequipeskey[this.lesmatchs_c1_pB[n].equipeDom.id]
                     this.lesmatchs_c1_pB[n].displayExt = this.lesequipeskey[this.lesmatchs_c1_pB[n].equipeExt.id]
-                    this.lesmatchs_c1_pB[n].categorie = "Senior F / U18F / PB"
+                    this.lesmatchs_c1_pB[n].categorie = this.c1_categorie + " / Poule B"
                   }
                 }).catch(error => {
                    console.log(error)
                 })
 
             // Load C2_P
-            var urlU15F_c2_Poule = this.urlU15F_c2_Poule;
+            var url_c2_Poule = this.url_c2_Poule;
             axios
-                .get(urlU15F_c2_Poule)
+                .get(url_c2_Poule)
                 .then(response => {
                   this.lesmatchs_c2_p = response.data.lesmatchs
 
@@ -234,7 +238,7 @@ export default {
                     this.lesmatchs_c2_p[n].score = this.lesmatchs_c2_p[n].equipeDom.but+" - "+this.lesmatchs_c2_p[n].equipeExt.but
                     this.lesmatchs_c2_p[n].displayDom = this.lesequipeskey[this.lesmatchs_c2_p[n].equipeDom.id]
                     this.lesmatchs_c2_p[n].displayExt = this.lesequipeskey[this.lesmatchs_c2_p[n].equipeExt.id]
-                    this.lesmatchs_c2_p[n].categorie = "U15F"
+                    this.lesmatchs_c2_p[n].categorie = this.c2_categorie
                   }
                 }).catch(error => {
                    console.log(error)
@@ -262,16 +266,16 @@ export default {
                     else
                         this.lesmatchs_c1_final[n].displayExt = blancEquipe
 
-                    this.lesmatchs_c1_final[n].categorie = "SeniorsF/U18F"
+                    this.lesmatchs_c1_final[n].categorie = this.c1_categorie
                   }
                 }).catch(error => {
                    console.log(error)
                 })
 
             // Load C2_F
-            var urlU15F_c2_finales = this.urlU15F_c2_finales;
+            var url_c2_finales = this.url_c2_finales;
             axios
-                .get(urlU15F_c2_finales)
+                .get(url_c2_finales)
                 .then(response => {
                   this.lesmatchs_c2_final = response.data.lesmatchs
                   var blancEquipe = {"categorie_id": "","id": "","nom": "","nomCourt": "","fanion": ""}
@@ -289,7 +293,7 @@ export default {
                     else
                         this.lesmatchs_c2_final[n].displayExt = blancEquipe
 
-                    this.lesmatchs_c2_final[n].categorie = "U15F"
+                    this.lesmatchs_c2_final[n].categorie = this.c2_categorie
                   }
                 }).catch(error => {
                    console.log(error)

@@ -1,8 +1,8 @@
 <template>
       <v-card class="mx-auto">
         <v-tabs color="primary accent-4" left>
-          <v-tab >U9 Poule A</v-tab>
-          <v-tab >U9 Poule B</v-tab>
+          <v-tab >{{ categorie }} Poule A</v-tab>
+          <v-tab >{{ categorie }} Poule B</v-tab>
             <v-chip class="ma-2" label @click.stop="update()">
                 <v-icon>mdi-reload</v-icon>Reload
             </v-chip>
@@ -13,7 +13,7 @@
               <v-col>
                 <base-material-card color="colorPA" class="px-0"  >
                   <template v-slot:heading>
-                  <div class="display-2 font-weight-light">U9 - PouleA - Matchs</div>
+                  <div class="display-2 font-weight-light">{{ categorie }} - PouleA - Matchs</div>
                   </template>
                   <v-card-text class="px-0" >
                     <v-data-table :headers="headersMatch" :items="lesmatchsA" hide-default-footer class="px-0" mobile-breakpoint="350">
@@ -44,7 +44,7 @@
               <v-col>
                 <base-material-card color="colorPA" class="px-0"  >
                   <template v-slot:heading>
-                      <div class="display-2 font-weight-light">U9 - PouleA - Classement</div>
+                      <div class="display-2 font-weight-light">{{ categorie }} - PouleA - Classement</div>
                   </template>
                   <v-card-text class="px-0" >
                       <v-data-table :headers="headersClassement" :items="leclassementA" hide-default-footer class="px-0" mobile-breakpoint="350">
@@ -62,7 +62,7 @@
                 </base-material-card>
 
                 <v-card max-width="400" class="mx-auto">
-                    <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/mma.png" alt="mma"/>
+                    <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/poules.png" alt="mma"/>
                     <v-card-title>Annonceurs</v-card-title>
                 </v-card>
 
@@ -77,7 +77,7 @@
                   <v-col>
                       <base-material-card color="colorPB" class="px-0"  >
                           <template v-slot:heading>
-                              <div class="display-2 font-weight-light">U9 - PouleB - Matchs</div>
+                              <div class="display-2 font-weight-light">{{ categorie }} - PouleB - Matchs</div>
                           </template>
                           <v-card-text class="px-0" >
                               <v-data-table :headers="headersMatch" :items="lesmatchsB" hide-default-footer class="px-0" mobile-breakpoint="350">
@@ -108,7 +108,7 @@
                   <v-col>
                     <base-material-card color="colorPB" class="px-0"  >
                         <template v-slot:heading>
-                            <div class="display-2 font-weight-light">U9 - PouleB - Classement</div>
+                            <div class="display-2 font-weight-light">{{ categorie }} - PouleB - Classement</div>
                         </template>
                         <v-card-text class="px-0" >
                             <v-data-table :headers="headersClassement" :items="leclassementB" hide-default-footer class="px-0" mobile-breakpoint="350">
@@ -143,6 +143,7 @@ import axios from 'axios'
 export default {
     data() {
       return {
+        categorie: "U9",
         urlPouleA: process.env.BASE_URL + "datas/U9_pouleA.json",
         urlPouleB: process.env.BASE_URL + "datas/U9_pouleB.json",
         urlEquipe: process.env.BASE_URL + "datas/info_tournoi.json",

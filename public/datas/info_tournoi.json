@@ -24,16 +24,16 @@
     {
       "categorie_id": "U11",
       "id": "U11G3",
-      "nom": "Ecommoy",
-      "nomCourt": "Ecommoy",
-      "fanion": "ecommoy.png"
+      "nom": "Villiers au Bouin",
+      "nomCourt": "Villiers",
+      "fanion": "villiers.png"
     },
     {
       "categorie_id": "U11",
       "id": "U11G4",
-      "nom": "Pays de Racan (Neuvy)",
-      "nomCourt": "PaysRacan",
-      "fanion": "paysderacan.png"
+      "nom": "US Arnage Pontlieue",
+      "nomCourt": "USAP",
+      "fanion": "usap.png"
     },
     {
       "categorie_id": "U11",
@@ -45,23 +45,23 @@
     {
       "categorie_id": "U11",
       "id": "U11G6",
-      "nom": "Villiers au Bouin",
-      "nomCourt": "Villiers",
-      "fanion": "villiers.png"
-    },
-    {
-      "categorie_id": "U11",
-      "id": "U11G7",
       "nom": "Le Lude",
       "nomCourt": "Le Lude",
       "fanion": "lelude.png"
     },
     {
       "categorie_id": "U11",
+      "id": "U11G7",
+      "nom": "Pays de Racan",
+      "nomCourt": "PaysRacan",
+      "fanion": "paysderacan.png"
+    },
+    {
+      "categorie_id": "U11",
       "id": "U11G8",
-      "nom": "US Arnage Pontlieue",
-      "nomCourt": "USAP",
-      "fanion": "usap.png"
+      "nom": "Ecommoy",
+      "nomCourt": "Ecommoy",
+      "fanion": "ecommoy.png"
     },
 
 
@@ -75,52 +75,51 @@
     {
       "categorie_id": "U9",
       "id": "U9G2",
-      "nom": "COC",
-      "nomCourt": "COC",
-      "fanion": "coc.png"
-    },
-    {
-      "categorie_id": "U9",
-      "id": "U9G3",
-      "nom": "Ecommoy",
-      "nomCourt": "Ecommoy",
-      "fanion": "ecommoy.png"
-    },
-    {
-      "categorie_id": "U9",
-      "id": "U9G4",
-      "nom": "US Arnage Pontlieue",
-      "nomCourt": "USAP",
-      "fanion": "usap.png"
-
-    },
-    {
-      "categorie_id": "U9",
-      "id": "U9G5",
       "nom": "Gatine",
       "nomCourt": "Gatine",
       "fanion": "gatine.png"
     },
     {
       "categorie_id": "U9",
-      "id": "U9G6",
-      "nom": "FC Val Du Loir 2",
-      "nomCourt": "FCVL_2",
-      "fanion": "fcvl.png"
-    },
-    {
-      "categorie_id": "U9",
-      "id": "U9G7",
+      "id": "U9G3",
       "nom": "Le Lude",
       "nomCourt": "Le Lude",
       "fanion": "lelude.png"
     },
     {
       "categorie_id": "U9",
-      "id": "U9G8",
-      "nom": "Pays de Racan (Neuvy)",
+      "id": "U9G4",
+      "nom": "Ecommoy",
+      "nomCourt": "Ecommoy",
+      "fanion": "ecommoy.png"
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G5",
+      "nom": "FC Val Du Loir 2",
+      "nomCourt": "FCVL_2",
+      "fanion": "fcvl.png"
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G6",
+      "nom": "Pays de Racan",
       "nomCourt": "PaysRacan",
       "fanion": "paysderacan.png"
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G7",
+      "nom": "COC",
+      "nomCourt": "COC",
+      "fanion": "coc.png"
+    },
+    {
+      "categorie_id": "U9",
+      "id": "U9G8",
+      "nom": "US Arnage Pontlieue",
+      "nomCourt": "USAP",
+      "fanion": "usap.png"
     },
 
 
@@ -178,9 +177,9 @@
     {
       "categorie_id": "U13F",
       "id": "U13F2",
-      "nom": "FC Val Du Loir 2",
-      "nomCourt": "FCVL2",
-      "fanion": "fcvl.png"
+      "nom": "Sargé / Yvré",
+      "nomCourt": "Sargé",
+      "fanion": "sarge.png"
     },
     {
       "categorie_id": "U13F",
@@ -202,6 +201,27 @@
       "nom": "Laigné StGervais",
       "nomCourt": "Laigné",
       "fanion": "laigne.png"
+    },
+    {
+      "categorie_id": "U13F",
+      "id": "U13F6",
+      "nom": "FC Val Du Loir 2",
+      "nomCourt": "FCVL2",
+      "fanion": "fcvl.png"
+    },
+    {
+      "categorie_id": "U13F",
+      "id": "U13F7",
+      "nom": "-",
+      "nomCourt": "1",
+      "fanion": "district.png"
+    },
+    {
+      "categorie_id": "U13F",
+      "id": "U13F8",
+      "nom": "-",
+      "nomCourt": "2",
+      "fanion": "district.png"
     }
 
   ],

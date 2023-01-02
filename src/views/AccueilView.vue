@@ -6,11 +6,14 @@
                   <v-img class="mx-auto" max-height="200px" max-width="200px" src="../assets/logo.png" alt="FCVL logo"/>
                   <v-card-text class="text-center pa-1">
                     <h3 class="display-2 font-weight-light mb-3 black--text">
-                      Tournoi en salle Féminin
+                      Tournoi en salle U9/U11/U13/U13F
                     </h3>
                     <p class="font-weight-light grey--text">Samedi 07/01/2023 : </p>
 
-                    <p class="font-weight-light grey--text">4 catégories : <a @click="scrollMeTo('U9')" >U9 Rdv 12h30 - Début 13h,</a><br/> <a @click="scrollMeTo('U11')" >U11 Rdv 9h00 - Début 9h30</a><br/>et <a href="/AccueilU13">U13/U13F Rdv 14h45 - Début 15h15</a></p>
+                    <p class="font-weight-light grey--text">4 catégories.
+                        <br/> <a @click="scrollMeTo('U11')" >U11 : Rdv 9h00 - Début 9h30</a>
+                        <br/><a @click="scrollMeTo('U9')" >U9 : Rdv 12h30 - Début 13h</a>
+                        <br/>et <v-btn text to="/AccueilU13" class="primary--text ma-0 pa-0 font-size:16px text-no-wrap">U13/U13F : Rdv 14h45 - Début 15h15</v-btn></p>
                     <p class="font-weight-light grey--text">U9/U11 : Temps de jeu 7 minutes, Rotation toutes les 10 minutes</p>
                     <p class="font-weight-light grey--text">U13/U13F : Temps de jeu 7 minutes, Rotation toutes les 8 minutes</p>
                   </v-card-text>
@@ -94,7 +97,7 @@
                 </v-dialog>
 
                 <v-card max-width="400" class="mx-auto">
-                    <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/mma.png" alt="mma"/>
+                    <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/acc.png" alt="mma"/>
                     <v-card-title>Annonceurs</v-card-title>
                 </v-card>
 
@@ -104,7 +107,7 @@
                 <div ref="U9"/>
                 <base-material-card
                       icon="mdi-clipboard-text"
-                      title="U9"
+                      title="U9 : Rdv 12h30 - Début 13h"
                       class="px-5 py-3"
                       color="primary"
                     >
@@ -153,7 +156,7 @@
                 <div ref="U11"/>
                 <base-material-card
                       icon="mdi-clipboard-text"
-                      title="U11"
+                      title="U11 : Rdv 9h00 - Début 9h30"
                       class="px-5 py-3"
                       color="primary"
                     >

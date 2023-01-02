@@ -63,11 +63,13 @@
         { title: 'U9 Poules', icon: 'mdi-view-split-vertical', to: '/U9Poules' },
         { title: 'U9 Finales', icon: 'mdi-format-line-weight', to: '/U9Finales' },
 
-        /*{ title: 'U15F Poules', icon: 'mdi-view-split-vertical', to: '/U15FPoules' },
-        { title: 'U15F Finales', icon: 'mdi-format-line-weight', to: '/U15FFinales' },
-        { title: 'SenF Poules', icon: 'mdi-view-split-vertical', to: '/SenFPoules' },
-        { title: 'SenF Finales', icon: 'mdi-format-line-weight', to: '/SenFFinales' },
-        { title: 'Timeline U13', icon: 'mdi-timeline-clock-outline', to: '/TimelineU13' },*/
+        { title: 'U13 Poules', icon: 'mdi-view-split-vertical', to: '/U13Poules' },
+        { title: 'U13 Finales', icon: 'mdi-format-line-weight', to: '/U13Finales' },
+
+        { title: 'U13F Poules', icon: 'mdi-view-split-vertical', to: '/U13FPoules' },
+        { title: 'U13F Finales', icon: 'mdi-format-line-weight', to: '/U13FFinales' },
+
+        { title: 'Timeline U13', icon: 'mdi-timeline-clock-outline', to: '/U13Timeline' },
       ],
     }),
 

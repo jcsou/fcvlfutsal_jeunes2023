@@ -1,57 +1,57 @@
 {
   "lesequipes": [
-    "F1",
-    "F2",
-    "F3",
-    "F4"
+    "U13F5",
+    "U13F6",
+    "U13F7",
+    "U13F8"
   ],
   "lesmatchs": [
     {
-      "id": 1,
+      "id": 5,
       "salle": "1-GLC",
-      "heureDebut": "20:00",
-      "equipeDom": {"id": "F1","but": ""},
-      "equipeExt": {"id": "F2","but": ""}
+      "heureDebut": "15:32",
+      "equipeDom": {"id": "U13F5","but": ""},
+      "equipeExt": {"id": "U13F6","but": ""}
     },
     {
-      "id": 3,
+      "id": 7,
       "salle": "1-GLC",
-      "heureDebut": "20:08",
-      "equipeDom": {"id": "F3","but": ""},
-      "equipeExt": {"id": "F4","but": ""}
+      "heureDebut": "15:40",
+      "equipeDom": {"id": "U13F7","but": ""},
+      "equipeExt": {"id": "U13F8","but": ""}
     },
     {
-      "id": 9,
+      "id": 13,
       "salle": "1-GLC",
-      "heureDebut": "20:32",
-      "equipeDom": {"id": "F2","but": ""},
-      "equipeExt": {"id": "F4","but": ""}
+      "heureDebut": "16:04",
+      "equipeDom": {"id": "U13F6","but": ""},
+      "equipeExt": {"id": "U13F8","but": ""}
     },
     {
-      "id": 11,
+      "id": 15,
       "salle": "1-GLC",
-      "heureDebut": "20:40",
-      "equipeDom": {"id": "F1","but": ""},
-      "equipeExt": {"id": "F3","but": ""}
+      "heureDebut": "16:12",
+      "equipeDom": {"id": "U13F5","but": ""},
+      "equipeExt": {"id": "U13F7","but": ""}
     },
     {
-      "id": 18,
+      "id": 22,
       "salle": "2-CCVL",
-      "heureDebut": "21:04",
-      "equipeDom": {"id": "F2","but": ""},
-      "equipeExt": {"id": "F3","but": ""}
+      "heureDebut": "16:36",
+      "equipeDom": {"id": "U13F6","but": ""},
+      "equipeExt": {"id": "U13F7","but": ""}
     },
     {
-      "id": 20,
+      "id": 24,
       "salle": "2-CCVL",
-      "heureDebut": "21:12",
-      "equipeDom": {"id": "F4","but": ""},
-      "equipeExt": {"id": "F1","but": ""}
+      "heureDebut": "16:44",
+      "equipeDom": {"id": "U13F8","but": ""},
+      "equipeExt": {"id": "U13F5","but": ""}
     }
   ],
   "leclassement": [
     {
-      "id":"F1",
+      "id":"U13F5",
       "rang": "",
       "points": "",
       "diffbuts": "",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id":"F2",
+      "id":"U13F6",
       "rang": "",
       "points": "",
       "diffbuts": "",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id":"F3",
+      "id":"U13F7",
       "rang": "",
       "points": "",
       "diffbuts": "",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id":"F4",
+      "id":"U13F8",
       "rang": "",
       "points": "",
       "diffbuts": "",

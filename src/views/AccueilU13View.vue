@@ -5,7 +5,7 @@
                 <div ref="U13G"/>
                 <base-material-card
                       icon="mdi-clipboard-text"
-                      title="U13G"
+                      title="U13G : Rdv 14h45 - Début 15h15"
                       class="px-5 py-3"
                       color="primary"
                     >
@@ -54,7 +54,7 @@
                 <div ref="U13F"/>
                 <base-material-card
                       icon="mdi-clipboard-text"
-                      title="U13F"
+                      title="U13F : Rdv 14h45 - Début 15h15"
                       class="px-5 py-3"
                       color="primary"
                     >
@@ -100,7 +100,7 @@
             </v-col>
             <v-col cols="12" sm="6" lg="4" >
                 <v-card max-width="400" class="mx-auto">
-                    <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/mma.png" alt="mma"/>
+                    <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/acc.png" alt="mma"/>
                     <v-card-title>Annonceurs</v-card-title>
                 </v-card>
 

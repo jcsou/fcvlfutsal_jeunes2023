@@ -2,10 +2,10 @@
     <v-container id="SenFPhaseFinale" fluid tag="section">
     <v-row>
       <v-col class="col-md-8">
-        <!-- U9-1er Match Classement -->
+        <!-- {{ categorie }}-1er Match Classement -->
         <base-material-card color="primary" class="px-0">
           <template v-slot:heading>
-            <div class="display-2 font-weight-light">U9 - 1er Match Classement</div>
+            <div class="display-2 font-weight-light">{{ categorie }} - 1er Match Classement</div>
           </template>
           <v-card-text class="px-0" >
             <v-data-table :headers="headersMatch" :items="lesmatchsNiv1" hide-default-footer class="px-0" mobile-breakpoint="350">
@@ -37,10 +37,10 @@
           </v-card-text>
         </base-material-card>
 
-        <!-- U9-2ieme Match Classement -->
+        <!-- {{ categorie }}-2ieme Match Classement -->
         <base-material-card color="primary" class="px-0">
             <template v-slot:heading>
-                <div class="display-2 font-weight-light">U9 - 2ieme Match Classement</div>
+                <div class="display-2 font-weight-light">{{ categorie }} - 2ieme Match Classement</div>
             </template>
             <v-card-text class="px-0" >
                 <v-data-table :headers="headersMatch" :items="lesmatchsNiv2" hide-default-footer class="px-0" mobile-breakpoint="350">
@@ -76,7 +76,7 @@
       <v-col class="col-md-4">
         <base-material-card color="primary" class="px-0"  >
           <template v-slot:heading>
-              <div class="display-2 font-weight-light">Classement Final</div>
+              <div class="display-2 font-weight-light">{{ categorie }} - Classement Final</div>
           </template>
           <v-card-text class="px-0" >
               <v-data-table :headers="headersClassement" :items="leclassement" hide-default-footer class="px-0" mobile-breakpoint="350">
@@ -93,7 +93,7 @@
         </base-material-card>
 
         <v-card max-width="400" class="mx-auto">
-            <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/mma.png" alt="mma"/>
+            <v-img class="mx-auto" max-height="200px" max-width="200px" src="img/pub/finales.png" alt="mma"/>
             <v-card-title>Annonceurs</v-card-title>
         </v-card>
       </v-col>
@@ -107,6 +107,7 @@ import axios from 'axios'
 export default {
     data() {
       return {
+        categorie: "U9",
         urlFinales: process.env.BASE_URL + "datas/U9_finales.json",
         urlEquipe: process.env.BASE_URL + "datas/info_tournoi.json",
         lesmatchsNiv1: [],

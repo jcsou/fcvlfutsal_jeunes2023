@@ -39,32 +39,29 @@ export default new Router({
         component: () => import('./views/U9FinalesView.vue')
     },
     {
-        path: '/SenFPoules',
-        name: 'SenFPoules',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ './views/SenFPoulesView.vue')
+        path: '/U13Poules',
+        name: 'U13Poules',
+        component: () => import('./views/U13PoulesView.vue')
     },
     {
-        path: '/SenFFinales',
-        name: 'SenFFinales',
-        component: () => import('./views/SenFFinalesView.vue')
+        path: '/U13Finales',
+        name: 'U13Finales',
+        component: () => import('./views/U13FinalesView.vue')
     },
     {
-        path: '/U15FPoules',
-        name: 'U15FPoules',
-        component: () => import('./views/U15FPoulesView.vue')
+        path: '/U13FPoules',
+        name: 'U13FPoules',
+        component: () => import('./views/U13FPoulesView.vue')
     },
     {
-        path: '/U15FFinales',
-        name: 'U15FFinales',
-        component: () => import('./views/U15FFinalesView.vue')
+        path: '/U13FFinales',
+        name: 'U13FFinales',
+        component: () => import('./views/U13FFinalesView.vue')
     },
     {
-         path: '/TimelineU13',
-         name: 'TimelineU13',
-         component: () => import('./views/TimelineU13View.vue')
+         path: '/U13Timeline',
+         name: 'U13Timeline',
+         component: () => import('./views/U13TimelineView.vue')
     }
   ]
 })
