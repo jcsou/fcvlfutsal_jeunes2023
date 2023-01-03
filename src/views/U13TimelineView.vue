@@ -4,10 +4,10 @@
     <v-col>
         <v-card class="mx-auto" >
             <v-card dark flat >
-                <v-card-title class="pa-2 primary lighten-3">
-                    <h3 class="font-weight-light text-center black grow">
-                        Ligne de temps - Matchs de Poule U13/U13F
-                    </h3>
+                <v-card-title class="pa-1 primary lighten-3">
+                    <h4 class="font-weight-light text-center">
+                        Matchs de Poule {{ c1_categorie }} / {{ c2_categorie }}
+                    </h4>
                 </v-card-title>
             </v-card>
             <v-card-text class="pa-1 ma-0">
@@ -50,10 +50,10 @@
     <v-col>
         <v-card class="mx-auto" >
             <v-card dark flat >
-                <v-card-title class="pa-2 secondary lighten-3">
-                    <h3 class="font-weight-light text-center black grow">
-                        Ligne de temps - Matchs de Classement U13/U13F
-                    </h3>
+                <v-card-title class="pa-1 primary lighten-3">
+                    <h4 class="font-weight-light text-center">
+                        Matchs de Classement {{ c1_categorie }} / {{ c2_categorie }}
+                    </h4>
                 </v-card-title>
             </v-card>
             <v-card-text class="pa-1 ma-0">
@@ -251,7 +251,7 @@ export default {
                 .get(urlF_c1_finales)
                 .then(response => {
                   this.lesmatchs_c1_final = response.data.lesmatchs
-                  var blancEquipe = {"categorie_id": "","id": "","nom": "","nomCourt": "","fanion": ""}
+                  var blancEquipe = {"categorie_id": "","id": "","nom": "","nomCourt": "","fanion": "px.png"}
 
                   for (var n in this.lesmatchs_c1_final ) {
                     this.lesmatchs_c1_final[n].score = this.lesmatchs_c1_final[n].equipeDom.but+" - "+this.lesmatchs_c1_final[n].equipeExt.but
@@ -278,7 +278,7 @@ export default {
                 .get(url_c2_finales)
                 .then(response => {
                   this.lesmatchs_c2_final = response.data.lesmatchs
-                  var blancEquipe = {"categorie_id": "","id": "","nom": "","nomCourt": "","fanion": ""}
+                  var blancEquipe = {"categorie_id": "","id": "","nom": "","nomCourt": "","fanion": "px.png"}
 
                   for (var n in this.lesmatchs_c2_final ) {
                     this.lesmatchs_c2_final[n].score = this.lesmatchs_c2_final[n].equipeDom.but+" - "+this.lesmatchs_c2_final[n].equipeExt.but

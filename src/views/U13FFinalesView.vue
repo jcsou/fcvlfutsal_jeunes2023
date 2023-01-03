@@ -206,7 +206,7 @@ export default {
                   this.lesmatchsNiv2 = response.data.lesmatchs.filter(function (entry){return entry.niveau==='2';})
                   this.leclassement = response.data.leclassement
 
-                  var blancEquipe = {"categorie_id": "","id": "","nom": "","nomCourt": "","fanion": ""}
+                  var blancEquipe = {"categorie_id": "","id": "","nom": "","nomCourt": "","fanion": "px.png"}
 
                   for (var z in this.leclassement ) {
                     if (this.leclassement[z].equipe)

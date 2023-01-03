@@ -1,57 +1,57 @@
 {
   "lesequipes": [
-    "U13G1",
-    "U13G2",
-    "U13G3",
-    "U13G4"
+    "U13G5",
+    "U13G6",
+    "U13G7",
+    "U13G8"
   ],
   "lesmatchs": [
     {
-      "id": 2,
+      "id": 6,
       "salle": "2-CCVL",
-      "heureDebut": "15:16",
-      "equipeDom": {"id": "U13G1","but": ""},
-      "equipeExt": {"id": "U13G2","but": ""}
+      "heureDebut": "15:32",
+      "equipeDom": {"id": "U13G5","but": ""},
+      "equipeExt": {"id": "U13G6","but": ""}
     },
     {
-      "id": 4,
+      "id": 8,
       "salle": "2-CCVL",
-      "heureDebut": "15:24",
-      "equipeDom": {"id": "U13G3","but": ""},
-      "equipeExt": {"id": "U13G4","but": ""}
+      "heureDebut": "15:40",
+      "equipeDom": {"id": "U13G7","but": ""},
+      "equipeExt": {"id": "U13G8","but": ""}
     },
     {
-      "id": 10,
+      "id": 14,
       "salle": "2-CCVL",
-      "heureDebut": "15:48",
-      "equipeDom": {"id": "U13G2","but": ""},
-      "equipeExt": {"id": "U13G4","but": ""}
+      "heureDebut": "16:04",
+      "equipeDom": {"id": "U13G6","but": ""},
+      "equipeExt": {"id": "U13G8","but": ""}
     },
     {
-      "id": 12,
+      "id": 16,
       "salle": "2-CCVL",
-      "heureDebut": "15:56",
-      "equipeDom": {"id": "U13G1","but": ""},
-      "equipeExt": {"id": "U13G3","but": ""}
+      "heureDebut": "16:12",
+      "equipeDom": {"id": "U13G5","but": ""},
+      "equipeExt": {"id": "U13G7","but": ""}
     },
     {
-      "id": 17,
+      "id": 21,
       "salle": "1-GLC",
-      "heureDebut": "16:20",
-      "equipeDom": {"id": "U13G2","but": ""},
-      "equipeExt": {"id": "U13G3","but": ""}
+      "heureDebut": "16:36",
+      "equipeDom": {"id": "U13G6","but": ""},
+      "equipeExt": {"id": "U13G7","but": ""}
     },
     {
-      "id": 19,
+      "id": 23,
       "salle": "1-GLC",
-      "heureDebut": "16:28",
-      "equipeDom": {"id": "U13G4","but": ""},
-      "equipeExt": {"id": "U13G1","but": ""}
+      "heureDebut": "16:44",
+      "equipeDom": {"id": "U13G8","but": ""},
+      "equipeExt": {"id": "U13G5","but": ""}
     }
   ],
   "leclassement": [
     {
-      "id":"U13G1",
+      "id":"U13G5",
       "rang": "",
       "points": "",
       "diffbuts": "",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id":"U13G2",
+      "id":"U13G6",
       "rang": "",
       "points": "",
       "diffbuts": "",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id":"U13G3",
+      "id":"U13G7",
       "rang": "",
       "points": "",
       "diffbuts": "",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id":"U13G4",
+      "id":"U13G8",
       "rang": "",
       "points": "",
       "diffbuts": "",

@@ -1,8 +1,8 @@
 <template>
       <v-card class="mx-auto">
         <v-tabs color="primary accent-4" left>
-          <v-tab >{{ categorie }} - Poule A</v-tab>
-          <v-tab >{{ categorie }} - Poule B</v-tab>
+          <v-tab >{{ categorie }} Poule A</v-tab>
+          <v-tab >{{ categorie }} Poule B</v-tab>
             <v-chip class="ma-2" label @click.stop="update()">
                 <v-icon>mdi-reload</v-icon>Reload
             </v-chip>
@@ -143,9 +143,9 @@ import axios from 'axios'
 export default {
     data() {
       return {
-        categorie: "U13G",
-        urlPouleA: process.env.BASE_URL + "datas/U13_pouleA.json",
-        urlPouleB: process.env.BASE_URL + "datas/U13_pouleB.json",
+        categorie: "U11",
+        urlPouleA: process.env.BASE_URL + "datas/U11_pouleA.json",
+        urlPouleB: process.env.BASE_URL + "datas/U11_pouleB.json",
         urlEquipe: process.env.BASE_URL + "datas/info_tournoi.json",
         lesmatchsA: [],
         leclassementA: [],
