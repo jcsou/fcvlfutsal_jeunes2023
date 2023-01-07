@@ -8,7 +8,7 @@
         <!-- Start of app toolbar -->
         <v-toolbar >
           <v-toolbar-title class="display1 text-uppercase">
-                FCVL Futsal U11/U9/13/U13F 2023
+                FCVL Futsal U11/U9 2023
           </v-toolbar-title>
 
           <v-spacer></v-spacer>

@@ -24,7 +24,7 @@
         </v-list-item-title>
       </v-list-item>
       <v-list-item>
-        <v-list-item-subtitle>Futsal U9/U11/U13/U13F</v-list-item-subtitle>
+        <v-list-item-subtitle>Futsal U9/U11</v-list-item-subtitle>
       </v-list-item>
     </v-list>
 
@@ -57,19 +57,10 @@
       expandOnHover: false,
       items: [
         { title: 'Accueil', icon: 'mdi-view-dashboard', to: '/' },
-        { title: 'Accueil U13', icon: 'mdi-view-dashboard', to: '/AccueilU13' },
         { title: 'U11 Poules', icon: 'mdi-view-split-vertical', to: '/U11Poules' },
         { title: 'U11 Finales', icon: 'mdi-format-line-weight', to: '/U11Finales' },
         { title: 'U9 Poules', icon: 'mdi-view-split-vertical', to: '/U9Poules' },
         { title: 'U9 Finales', icon: 'mdi-format-line-weight', to: '/U9Finales' },
-
-        { title: 'U13 Poules', icon: 'mdi-view-split-vertical', to: '/U13Poules' },
-        { title: 'U13 Finales', icon: 'mdi-format-line-weight', to: '/U13Finales' },
-
-        { title: 'U13F Poules', icon: 'mdi-view-split-vertical', to: '/U13FPoules' },
-        { title: 'U13F Finales', icon: 'mdi-format-line-weight', to: '/U13FFinales' },
-
-        { title: 'Timeline U13', icon: 'mdi-timeline-clock-outline', to: '/U13Timeline' },
       ],
     }),
 

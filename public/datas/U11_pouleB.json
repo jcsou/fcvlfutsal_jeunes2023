@@ -86,7 +86,24 @@
       "diffbuts": "",
       "butsPour": "",
       "butsContre": "",
+      "idnom":"COC",
+      "sep":"-----------------",
       "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match2": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match3": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match4": {
         "points": "",
         "butsPour": "",
         "butsContre": ""
@@ -99,7 +116,24 @@
       "diffbuts": "",
       "butsPour": "",
       "butsContre": "",
+      "idnom":"lelude",
+      "sep":"-----------------",
       "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match2": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match3": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match4": {
         "points": "",
         "butsPour": "",
         "butsContre": ""
@@ -112,7 +146,24 @@
       "diffbuts": "",
       "butsPour": "",
       "butsContre": "",
+      "idnom":"paysderacan2",
+      "sep":"-----------------",
       "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match2": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match3": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match4": {
         "points": "",
         "butsPour": "",
         "butsContre": ""
@@ -125,7 +176,24 @@
       "diffbuts": "",
       "butsPour": "",
       "butsContre": "",
+      "idnom":"Ecommoy",
+      "sep":"-----------------",
       "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match2": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match3": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match4": {
         "points": "",
         "butsPour": "",
         "butsContre": ""
@@ -138,11 +206,28 @@
       "diffbuts": "",
       "butsPour": "",
       "butsContre": "",
+      "idnom":"FCVL2",
+      "sep":"-----------------",
       "match1": {
         "points": "",
         "butsPour": "",
         "butsContre": ""
-     }
+     },
+      "match2": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match3": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match4": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      }
     }
   ]
 }  

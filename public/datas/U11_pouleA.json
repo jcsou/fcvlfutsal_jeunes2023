@@ -86,7 +86,24 @@
       "diffbuts": "",
       "butsPour": "",
       "butsContre": "",
+      "idnom": "FCVL1",
+      "sep":"-----------------",
       "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match2": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match3": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match4": {
         "points": "",
         "butsPour": "",
         "butsContre": ""
@@ -99,7 +116,24 @@
       "diffbuts": "",
       "butsPour": "",
       "butsContre": "",
+      "idnom": "Gatine",
+      "sep":"-----------------",
       "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match2": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match3": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match4": {
         "points": "",
         "butsPour": "",
         "butsContre": ""
@@ -112,7 +146,24 @@
       "diffbuts": "",
       "butsPour": "",
       "butsContre": "",
+      "idnom": "Villier",
+      "sep":"-----------------",
       "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match2": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match3": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match4": {
         "points": "",
         "butsPour": "",
         "butsContre": ""
@@ -120,6 +171,8 @@
     },
     {
       "id": "U11G4",
+      "idnom": "USAP",
+      "sep":"-----------------",
       "rang": "",
       "points": "",
       "diffbuts": "",
@@ -129,16 +182,48 @@
         "points": "",
         "butsPour": "",
         "butsContre": ""
+      },
+      "match2": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match3": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match4": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
       }
     },
     {
       "id":"U11G5",
+      "idnom": "PaysRacan1",
+      "sep":"-----------------",
       "rang": "",
       "points": "",
       "diffbuts": "",
       "butsPour": "",
       "butsContre": "",
       "match1": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match2": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match3": {
+        "points": "",
+        "butsPour": "",
+        "butsContre": ""
+      },
+      "match4": {
         "points": "",
         "butsPour": "",
         "butsContre": ""
