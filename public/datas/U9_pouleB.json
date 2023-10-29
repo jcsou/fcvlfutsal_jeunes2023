@@ -10,126 +10,144 @@
       "id": 2,
       "salle": "2-CCVL",
       "heureDebut": "13:00",
-      "equipeDom": {"id": "U9G5","but": ""},
-      "equipeExt": {"id": "U9G6","but": ""}
+      "equipeDom": {"id": "U9G5","but": "0"},
+      "equipeExt": {"id": "U9G6","but": "3"}
     },
     {
       "id": 4,
       "salle": "2-CCVL",
       "heureDebut": "13:10",
-      "equipeDom": {"id": "U9G7","but": ""},
-      "equipeExt": {"id": "U9G8","but": ""}
+      "equipeDom": {"id": "U9G7","but": "2"},
+      "equipeExt": {"id": "U9G8","but": "0"}
     },
     {
       "id": 6,
       "salle": "2-CCVL",
       "heureDebut": "13:20",
-      "equipeDom": {"id": "U9G6","but": ""},
-      "equipeExt": {"id": "U9G8","but": ""}
+      "equipeDom": {"id": "U9G6","but": "0"},
+      "equipeExt": {"id": "U9G8","but": "1"}
     },
     {
       "id": 8,
       "salle": "2-CCVL",
       "heureDebut": "13:30",
-      "equipeDom": {"id": "U9G5","but": ""},
-      "equipeExt": {"id": "U9G7","but": ""}
+      "equipeDom": {"id": "U9G5","but": "0"},
+      "equipeExt": {"id": "U9G7","but": "6"}
     },
     {
       "id": 9,
       "salle": "1-GLC",
       "heureDebut": "13:40",
-      "equipeDom": {"id": "U9G6","but": ""},
-      "equipeExt": {"id": "U9G7","but": ""}
+      "equipeDom": {"id": "U9G6","but": "0"},
+      "equipeExt": {"id": "U9G7","but": "1"}
     },
     {
       "id": 11,
       "salle": "1-GLC",
       "heureDebut": "13:50",
-      "equipeDom": {"id": "U9G8","but": ""},
-      "equipeExt": {"id": "U9G5","but": ""}
+      "equipeDom": {"id": "U9G8","but": "3"},
+      "equipeExt": {"id": "U9G5","but": "0"}
     }
   ],
   "leclassement": [
     {
       "id":"U9G5",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "4",
+      "points": "3",
+      "diffbuts": "-12",
+      "butsPour": "0",
+      "butsContre": "12",
+      "idnom": "FCVL2",
+      "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "3"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "6"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "3"
       }
     },
     {
       "id":"U9G6",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "3",
+      "points": "6",
+      "diffbuts": "1",
+      "butsPour": "3",
+      "butsContre": "2",
+      "idnom": "paysderacan",
+      "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "3",
+        "butsContre": "0"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "1"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "0",
+        "butsContre": "1"
       }
     },
     {
       "id":"U9G7",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "1",
+      "points": "12",
+      "diffbuts": "9",
+      "butsPour": "9",
+      "butsContre": "0",
+      "idnom": "COC",
+      "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "2",
+        "butsContre": "0"
+      },
+      "match2": {
+        "points": "4",
+        "butsPour": "6",
+        "butsContre": "0"
+      },
+      "match3": {
+        "points": "4",
+        "butsPour": "1",
+        "butsContre": "0"
       }
     },
     {
       "id":"U9G8",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "2",
+      "points": "9",
+      "diffbuts": "2",
+      "butsPour": "4",
+      "butsContre": "2",
+      "idnom": "USAP",
+      "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "2"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "1",
+        "butsContre": "0"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "3",
+        "butsContre": "0"
       }
     }
   ]

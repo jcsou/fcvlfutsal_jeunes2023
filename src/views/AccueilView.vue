@@ -96,7 +96,7 @@
                 </v-dialog>
 
                 <v-card max-width="400" class="mx-auto">
-                    <v-img class="mx-auto" max-height="300px" max-width="300px" src="img/pub/acc.png" alt="mma"/>
+                    <v-img class="mx-auto" max-height="300px" max-width="300px" src="img/pub/mmaloulou.png" alt="mma"/>
                     <v-card-title>Annonceurs</v-card-title>
                 </v-card>
 

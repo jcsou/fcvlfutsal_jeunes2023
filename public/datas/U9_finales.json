@@ -7,8 +7,8 @@
       "nom": "3ieme PA, 4ieme PB",
       "code": "place5_8-1",
       "niveau": "1",
-      "equipeDom": {"id": "","but": ""},
-      "equipeExt": {"id": "","but": ""}
+      "equipeDom": {"id": "U9G1","but": "7"},
+      "equipeExt": {"id": "U9G5","but": "1"}
     },
     {
       "id": 16,
@@ -17,8 +17,8 @@
       "code": "place5_8-2",
       "heureDebut": "14:20",
       "niveau": "1",
-      "equipeDom": {"id": "","but": ""},
-      "equipeExt": {"id": "","but": ""}
+      "equipeDom": {"id": "U9G6","but": "2-tab2"},
+      "equipeExt": {"id": "U9G3","but": "2-tab0"}
     },
 
     {
@@ -28,8 +28,8 @@
       "nom": "1er PA, 2nd PB",
       "code": "place1_4-1",
       "niveau": "1",
-      "equipeDom": {"id": "","but": ""},
-      "equipeExt": {"id": "","but": ""}
+      "equipeDom": {"id": "U9G2","but": "2"},
+      "equipeExt": {"id": "U9G8","but": "0"}
     },
     {
       "id": 15,
@@ -38,8 +38,8 @@
       "nom": "1er PB, 2nd PA",
       "code": "place1_4-2",
       "niveau": "1",
-      "equipeDom": {"id": "","but": ""},
-      "equipeExt": {"id": "","but": ""}
+      "equipeDom": {"id": "U9G7","but": "1"},
+      "equipeExt": {"id": "U9G4","but": "0"}
     },
 
     {
@@ -49,8 +49,8 @@
       "nom": "Classement 7/8 iéme",
       "code": "place7_8",
       "niveau": "2",
-      "equipeDom": {"id": "","but": ""},
-      "equipeExt": {"id": "","but": ""}
+      "equipeDom": {"id": "U9G5","but": "0"},
+      "equipeExt": {"id": "U9G3","but": "2"}
     },
     {
       "id": 19,
@@ -59,8 +59,8 @@
       "nom": "Classement 5/6 iéme",
       "code": "place5_6",
       "niveau": "2",
-      "equipeDom": {"id": "","but": ""},
-      "equipeExt": {"id": "","but": ""}
+      "equipeDom": {"id": "U9G1","but": "3"},
+      "equipeExt": {"id": "U9G6","but": "1"}
     },
     {
       "id": 21,
@@ -69,8 +69,8 @@
       "nom": "Classement 3/4 iéme",
       "code": "place3_4",
       "niveau": "2",
-      "equipeDom": {"id": "","but": ""},
-      "equipeExt": {"id": "","but": ""}
+      "equipeDom": {"id": "U9G8","but": "1"},
+      "equipeExt": {"id": "U9G7","but": "0"}
     },
     {
       "id": 23,
@@ -79,18 +79,18 @@
       "code": "place1-2",
       "heureDebut": "14:45",
       "niveau": "2",
-      "equipeDom": {"id": "","but": ""},
-      "equipeExt": {"id": "","but": ""}
+      "equipeDom": {"id": "U9G2","but": ""},
+      "equipeExt": {"id": "U9G4","but": ""}
     }
   ],
   "leclassement": [
-    { "rang":"1", "equipe": ""},
-    { "rang":"2", "equipe": ""},
-    { "rang":"3", "equipe": ""},
-    { "rang":"4", "equipe": ""},
-    { "rang":"5", "equipe": ""},
-    { "rang":"6", "equipe": ""},
-    { "rang":"7", "equipe": ""},
-    { "rang":"8", "equipe": ""}
+    { "rang":"1", "equipe": "U9G2"},
+    { "rang":"2", "equipe": "U9G4"},
+    { "rang":"3", "equipe": "U9G8"},
+    { "rang":"4", "equipe": "U9G7"},
+    { "rang":"5", "equipe": "U9G6"},
+    { "rang":"6", "equipe": "U9G1"},
+    { "rang":"7", "equipe": "U9G3"},
+    { "rang":"8", "equipe": "U9G5"}
   ]
 }

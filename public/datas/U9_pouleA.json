@@ -10,136 +10,144 @@
       "id": 1,
       "salle": "1-GLC",
       "heureDebut": "13:00",
-      "equipeDom": {"id": "U9G1","but": ""},
-      "equipeExt": {"id": "U9G2","but": ""}
+      "equipeDom": {"id": "U9G1","but": "0"},
+      "equipeExt": {"id": "U9G2","but": "1"}
     },
     {
       "id": 3,
       "salle": "1-GLC",
       "heureDebut": "13:10",
-      "equipeDom": {"id": "U9G3","but": ""},
-      "equipeExt": {"id": "U9G4","but": ""}
+      "equipeDom": {"id": "U9G3","but": "1"},
+      "equipeExt": {"id": "U9G4","but": "4"}
     },
     {
       "id": 5,
       "salle": "1-GLC",
       "heureDebut": "13:20",
-      "equipeDom": {"id": "U9G2","but": ""},
-      "equipeExt": {"id": "U9G4","but": ""}
+      "equipeDom": {"id": "U9G2","but": "0"},
+      "equipeExt": {"id": "U9G4","but": "0"}
     },
     {
       "id": 7,
       "salle": "1-GLC",
       "heureDebut": "13:30",
-      "equipeDom": {"id": "U9G1","but": ""},
-      "equipeExt": {"id": "U9G3","but": ""}
+      "equipeDom": {"id": "U9G1","but": "1"},
+      "equipeExt": {"id": "U9G3","but": "1"}
     },
     {
       "id": 10,
       "salle": "2-CCVL",
       "heureDebut": "13:40",
-      "equipeDom": {"id": "U9G2","but": ""},
-      "equipeExt": {"id": "U9G3","but": ""}
+      "equipeDom": {"id": "U9G2","but": "4"},
+      "equipeExt": {"id": "U9G3","but": "0"}
     },
     {
       "id": 12,
       "salle": "2-CCVL",
       "heureDebut": "13:50",
-      "equipeDom": {"id": "U9G4","but": ""},
-      "equipeExt": {"id": "U9G1","but": ""}
+      "equipeDom": {"id": "U9G4","but": "1"},
+      "equipeExt": {"id": "U9G1","but": "1"}
     }
   ],
   "leclassement": [
     {
       "id":"U9G1",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "3",
+      "points": "5",
+      "diffbuts": "-1",
+      "butsPour": "2",
+      "butsContre": "3",
+      "idnom": "FCVL1",
+      "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "1"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "1",
+        "butsContre": "1"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "1",
+        "butsContre": "1"
       }
     },
     {
       "id":"U9G2",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "1",
+      "points": "10",
+      "diffbuts": "5",
+      "butsPour": "5",
+      "butsContre": "0",
+      "idnom": "gatine",
+      "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "1",
+        "butsContre": "0"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "0",
+        "butsContre": "0"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "4",
+        "butsContre": "0"
       }
     },
     {
       "id":"U9G3",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "4",
+      "points": "4",
+      "diffbuts": "-7",
+      "butsPour": "2",
+      "butsContre": "9",
+      "idnom": "LeLude",
+      "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "1",
+        "butsContre": "4"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "1",
+        "butsContre": "1"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "4"
       }
     },
     {
       "id":"U9G4",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "2",
+      "points": "8",
+      "diffbuts": "3",
+      "butsPour": "5",
+      "butsContre": "2",
+      "idnom": "Ecommoy",
+      "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "4",
+        "butsContre": "1"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "0",
+        "butsContre": "0"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "1",
+        "butsContre": "1"
       }
     }
   ]

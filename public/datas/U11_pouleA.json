@@ -11,222 +11,222 @@
       "id": 1,
       "salle": "1-GLC",
       "heureDebut": "9:30",
-      "equipeDom": {"id": "U11G1","but": ""},
-      "equipeExt": {"id": "U11G2","but": ""}
+      "equipeDom": {"id": "U11G1","but": "0"},
+      "equipeExt": {"id": "U11G2","but": "0"}
     },
     {
       "id": 3,
       "salle": "1-GLC",
       "heureDebut": "9:38",
-      "equipeDom": {"id": "U11G3","but": ""},
-      "equipeExt": {"id": "U11G4","but": ""}
+      "equipeDom": {"id": "U11G3","but": "0"},
+      "equipeExt": {"id": "U11G4","but": "1"}
     },
     {
       "id": 5,
       "salle": "1-GLC",
       "heureDebut": "9:46",
-      "equipeDom": {"id": "U11G2","but": ""},
-      "equipeExt": {"id": "U11G5","but": ""}
+      "equipeDom": {"id": "U11G2","but": "0"},
+      "equipeExt": {"id": "U11G5","but": "0"}
     },
     {
       "id": 7,
       "salle": "1-GLC",
       "heureDebut": "9:54",
-      "equipeDom": {"id": "U11G4","but": ""},
-      "equipeExt": {"id": "U11G1","but": ""}
+      "equipeDom": {"id": "U11G4","but": "0"},
+      "equipeExt": {"id": "U11G1","but": "0"}
     },
     {
       "id": 9,
       "salle": "1-GLC",
       "heureDebut": "10:04",
-      "equipeDom": {"id": "U11G5","but": ""},
-      "equipeExt": {"id": "U11G3","but": ""}
+      "equipeDom": {"id": "U11G5","but": "1"},
+      "equipeExt": {"id": "U11G3","but": "0"}
     },
     {
       "id": 12,
       "salle": "2-CCVL",
       "heureDebut": "10:12",
-      "equipeDom": {"id": "U11G2","but": ""},
-      "equipeExt": {"id": "U11G4","but": ""}
+      "equipeDom": {"id": "U11G2","but": "1"},
+      "equipeExt": {"id": "U11G4","but": "0"}
     },
     {
       "id": 14,
       "salle": "2-CCVL",
       "heureDebut": "10:20",
-      "equipeDom": {"id": "U11G1","but": ""},
-      "equipeExt": {"id": "U11G3","but": ""}
+      "equipeDom": {"id": "U11G1","but": "1"},
+      "equipeExt": {"id": "U11G3","but": "2"}
     },
     {
       "id": 16,
       "salle": "2-CCVL",
       "heureDebut": "10:28",
-      "equipeDom": {"id": "U11G4","but": ""},
-      "equipeExt": {"id": "U11G5","but": ""}
+      "equipeDom": {"id": "U11G4","but": "1"},
+      "equipeExt": {"id": "U11G5","but": "1"}
     },
     {
       "id": 18,
       "salle": "2-CCVL",
       "heureDebut": "10:36",
-      "equipeDom": {"id": "U11G3","but": ""},
-      "equipeExt": {"id": "U11G2","but": ""}
+      "equipeDom": {"id": "U11G3","but": "0"},
+      "equipeExt": {"id": "U11G2","but": "2"}
     },
     {
       "id": 20,
       "salle": "2-CCVL",
       "heureDebut": "10:44",
-      "equipeDom": {"id": "U11G5","but": ""},
-      "equipeExt": {"id": "U11G1","but": ""}
+      "equipeDom": {"id": "U11G5","but": "0"},
+      "equipeExt": {"id": "U11G1","but": "1"}
     }
   ],
   "leclassement": [
     {
       "id":"U11G1",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "2",
+      "points": "9",
+      "diffbuts": "0",
+      "butsPour": "2",
+      "butsContre": "2",
       "idnom": "FCVL1",
       "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "0",
+        "butsContre": "0"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "0",
+        "butsContre": "0"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "1",
+        "butsContre": "2"
       },
       "match4": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "1",
+        "butsContre": "0"
       }
     },
     {
       "id":"U11G2",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "1",
+      "points": "12",
+      "diffbuts": "2",
+      "butsPour": "3",
+      "butsContre": "0",
       "idnom": "Gatine",
       "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "0",
+        "butsContre": "0"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
-      },
+      "points": "2",
+      "butsPour": "0",
+      "butsContre": "0"
+    },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "1",
+        "butsContre": "0"
       },
       "match4": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "2",
+        "butsContre": "0"
       }
     },
     {
       "id":"U11G3",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "5",
+      "points": "7",
+      "diffbuts": "-3",
+      "butsPour": "2",
+      "butsContre": "5",
       "idnom": "Villier",
       "sep":"-----------------",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "1"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "1"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "2",
+        "butsContre": "1"
       },
       "match4": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "2"
       }
     },
     {
       "id": "U11G4",
       "idnom": "USAP",
       "sep":"-----------------",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
+      "rang": "3",
+      "points": "9",
+      "diffbuts": "0",
+      "butsPour": "2",
+      "butsContre": "2",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "1",
+        "butsContre": "0"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "0",
+        "butsContre": "0"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "1"
       },
       "match4": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "1",
+        "butsContre": "1"
       }
     },
     {
       "id":"U11G5",
+      "rang": "4",
+      "points": "8",
+      "diffbuts": "1",
+      "butsPour": "2",
+      "butsContre": "1",
       "idnom": "PaysRacan1",
       "sep":"-----------------",
-      "rang": "",
-      "points": "",
-      "diffbuts": "",
-      "butsPour": "",
-      "butsContre": "",
       "match1": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "0",
+        "butsContre": "0"
       },
       "match2": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "4",
+        "butsPour": "1",
+        "butsContre": "0"
       },
       "match3": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "2",
+        "butsPour": "1",
+        "butsContre": "1"
       },
       "match4": {
-        "points": "",
-        "butsPour": "",
-        "butsContre": ""
+        "points": "1",
+        "butsPour": "0",
+        "butsContre": "1"
       }
     }
   ]
